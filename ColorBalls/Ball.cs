@@ -16,6 +16,9 @@ namespace ColorBalls
         // Amount of times ball has been thrown
         int throwAmount;
 
+        // Determines if ball has been popped
+        bool isPopped;
+
         /// <summary>
         /// Constructor that initializes Ball with given color and radius.
         /// </summary>
@@ -25,6 +28,25 @@ namespace ColorBalls
         {
             this.color = color;
             this.radius = radius;
+        }
+
+        /// <summary>
+        /// Pops the ball, setting its radius to 0.
+        /// </summary>
+        public void Pop()
+        {
+            isPopped = true;
+            radius = 0;
+        }
+
+        /// <summary>
+        /// Throws the ball once.
+        /// </summary>
+        public void Throw()
+        {   
+            // Checks if ball has been popped
+            if (!isPopped)
+                throwAmount++;
         }
     }
 }
