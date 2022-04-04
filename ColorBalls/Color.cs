@@ -117,7 +117,7 @@ namespace ColorBalls
         /// Getter for color gray.
         /// </summary>
         /// <returns> The gray value </returns>
-        public byte GetGray()
+        public int GetGray()
         {
             // Returns average from sum of RGB values
             return (red + green + blue) / 3;
