@@ -22,8 +22,8 @@ namespace ColorBalls
         /// <summary>
         /// Constructor that initializes Ball with given color and radius.
         /// </summary>
-        /// <param name="color">Color for current ball</param>
-        /// <param name="radius">Radius for current ball</param>
+        /// <param name="color"> Color for current ball </param>
+        /// <param name="radius"> Radius for current ball </param>
         public Ball(Color color, float radius)
         {
             this.color = color;

@@ -14,10 +14,10 @@ namespace ColorBalls
         /// Constructor that accepts all parameters necessary to initialize
         /// color state.
         /// </summary>
-        /// <param name="red">Red value of color</param>
-        /// <param name="green">Green value of color</param>
-        /// <param name="blue">Blue value of color</param>
-        /// <param name="alpha">Alpha value of color</param>
+        /// <param name="red"> Red value of color </param>
+        /// <param name="green"> Green value of color </param>
+        /// <param name="blue"> Blue value of color </param>
+        /// <param name="alpha"> Alpha value of color </param>
         public Color(byte red, byte green, byte blue, byte alpha)
         {
             this.red = red;
@@ -30,9 +30,9 @@ namespace ColorBalls
         /// Constructor that accepts RGB parameters and sets alpha at
         /// maximum value.
         /// </summary>
-        /// <param name="red">Red value of color</param>
-        /// <param name="green">Green value of color</param>
-        /// <param name="blue">Blue value of color</param>
+        /// <param name="red"> Red value of color </param>
+        /// <param name="green"> Green value of color </param>
+        /// <param name="blue"> Blue value of color </param>
         public Color(byte red, byte green, byte blue)
         {
             this.red = red;
@@ -44,7 +44,7 @@ namespace ColorBalls
         /// <summary>
         /// Getter for red value.
         /// </summary>
-        /// <returns></returns>
+        /// <returns> The red value </returns>
         public byte GetRed()
         {
             return red;
@@ -53,7 +53,7 @@ namespace ColorBalls
         /// <summary>
         /// Setter for red value.
         /// </summary>
-        /// <param name="value">New value for red variable</param>
+        /// <param name="value"> New value for red variable </param>
         public void SetRed(byte value)
         {
             red = value;
@@ -62,7 +62,7 @@ namespace ColorBalls
         /// <summary>
         /// Getter for green value.
         /// </summary>
-        /// <returns></returns>
+        /// <returns> The green value </returns>
         public byte GetGreen()
         {
             return green;
@@ -71,7 +71,7 @@ namespace ColorBalls
         /// <summary>
         /// Setter for green value.
         /// </summary>
-        /// <param name="value">New value for green variable</param>
+        /// <param name="value"> New value for green variable </param>
         public void SetGreen(byte value)
         {
             green = value;
@@ -80,7 +80,7 @@ namespace ColorBalls
         /// <summary>
         /// Getter for blue value.
         /// </summary>
-        /// <returns></returns>
+        /// <returns> The blue value </returns>
         public byte GetBlue()
         {
             return blue;
@@ -89,7 +89,7 @@ namespace ColorBalls
         /// <summary>
         /// Setter for blue value.
         /// </summary>
-        /// <param name="value">New value for blue variable</param>
+        /// <param name="value"> New value for blue variable </param>
         public void SetBlue(byte value)
         {
             blue = value;
@@ -98,7 +98,7 @@ namespace ColorBalls
         /// <summary>
         /// Getter for alpha value.
         /// </summary>
-        /// <returns></returns>
+        /// <returns> The alpha value </returns>
         public byte GetAlpha()
         {
             return alpha;
@@ -107,7 +107,7 @@ namespace ColorBalls
         /// <summary>
         /// Setter for alpha value.
         /// </summary>
-        /// <param name="value">New value for alpha variable</param>
+        /// <param name="value"> New value for alpha variable </param>
         public void SetAlpha(byte value)
         {
             alpha = value;
@@ -116,7 +116,7 @@ namespace ColorBalls
         /// <summary>
         /// Getter for color gray.
         /// </summary>
-        /// <returns></returns>
+        /// <returns> The gray value </returns>
         public byte GetGray()
         {
             // Returns average from sum of RGB values
