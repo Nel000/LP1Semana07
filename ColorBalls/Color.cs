@@ -112,5 +112,15 @@ namespace ColorBalls
         {
             alpha = value;
         }
+
+        /// <summary>
+        /// Getter for color gray.
+        /// </summary>
+        /// <returns></returns>
+        public byte GetGray()
+        {
+            // Returns average from sum of RGB values
+            return (red + green + blue) / 3;
+        }
     }
 }
