@@ -40,5 +40,77 @@ namespace ColorBalls
             this.blue = blue;
             alpha = byte.MaxValue;
         }
+
+        /// <summary>
+        /// Getter for red value.
+        /// </summary>
+        /// <returns></returns>
+        public byte GetRed()
+        {
+            return red;
+        }
+
+        /// <summary>
+        /// Setter for red value.
+        /// </summary>
+        /// <param name="value">New value for red variable</param>
+        public void SetRed(byte value)
+        {
+            red = value;
+        }
+
+        /// <summary>
+        /// Getter for green value.
+        /// </summary>
+        /// <returns></returns>
+        public byte GetGreen()
+        {
+            return green;
+        }
+
+        /// <summary>
+        /// Setter for green value.
+        /// </summary>
+        /// <param name="value">New value for green variable</param>
+        public void SetGreen(byte value)
+        {
+            green = value;
+        }
+
+        /// <summary>
+        /// Getter for blue value.
+        /// </summary>
+        /// <returns></returns>
+        public byte GetBlue()
+        {
+            return blue;
+        }
+
+        /// <summary>
+        /// Setter for blue value.
+        /// </summary>
+        /// <param name="value">New value for blue variable</param>
+        public void SetBlue(byte value)
+        {
+            blue = value;
+        }
+
+        /// <summary>
+        /// Getter for alpha value.
+        /// </summary>
+        /// <returns></returns>
+        public byte GetAlpha()
+        {
+            return alpha;
+        }
+
+        /// <summary>
+        /// Setter for alpha value.
+        /// </summary>
+        /// <param name="value">New value for alpha variable</param>
+        public void SetAlpha(byte value)
+        {
+            alpha = value;
+        }
     }
 }
