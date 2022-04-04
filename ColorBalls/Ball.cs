@@ -48,5 +48,14 @@ namespace ColorBalls
             if (!isPopped)
                 throwAmount++;
         }
+
+        /// <summary>
+        /// Getter for amount of throws.
+        /// </summary>
+        /// <returns> The amount of throws </returns>
+        public int GetThrows()
+        {
+            return throwAmount;
+        }
     }
 }
