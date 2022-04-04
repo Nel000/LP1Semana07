@@ -57,5 +57,10 @@ namespace ColorBalls
         {
             return throwAmount;
         }
+
+        public Color GetColor()
+        {
+            return color;
+        }
     }
 }
