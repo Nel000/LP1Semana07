@@ -8,16 +8,16 @@ namespace ColorBalls
     public class Ball
     {
         // Color for instance of ball
-        private Color color;
+        private readonly Color color;
 
         // Radius for instance of ball
-        float radius;
+        private float radius;
 
         // Amount of times ball has been thrown
-        int throwAmount;
+        private int throwAmount;
 
         // Determines if ball has been popped
-        bool isPopped;
+        private bool isPopped;
 
         /// <summary>
         /// Constructor that initializes Ball with given color and radius.
