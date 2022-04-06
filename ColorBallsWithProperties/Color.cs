@@ -15,6 +15,7 @@ namespace ColorBallsWithProperties
         public byte Green { get; set; }
         public byte Blue { get; set; }
         public byte Alpha { get; set; }
+        public int Grey { get { return (Red + Green + Blue) / 2; } }
 
         /// <summary>
         /// Constructor that accepts all parameters necessary to initialize
