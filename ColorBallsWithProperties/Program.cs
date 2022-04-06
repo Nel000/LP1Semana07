@@ -53,6 +53,7 @@ namespace ColorBallsWithProperties
             Console.WriteLine($"-- R: {color1.Red}");
             Console.WriteLine($"-- G: {color1.Green}");
             Console.WriteLine($"-- B: {color1.Blue}");
+            Console.WriteLine($"-- G: {color1.Gray}");
             Console.WriteLine($"- Times thrown: {ball1.ThrowAmount}");
 
             Console.WriteLine();
@@ -62,6 +63,7 @@ namespace ColorBallsWithProperties
             Console.WriteLine($"-- R: {color2.Red}");
             Console.WriteLine($"-- G: {color2.Green}");
             Console.WriteLine($"-- B: {color2.Blue}");
+            Console.WriteLine($"-- G: {color1.Gray}");
             Console.WriteLine($"- Times thrown: {ball2.ThrowAmount}");
 
             Console.WriteLine();
@@ -71,6 +73,7 @@ namespace ColorBallsWithProperties
             Console.WriteLine($"-- R: {color3.Red}");
             Console.WriteLine($"-- G: {color3.Green}");
             Console.WriteLine($"-- B: {color3.Blue}");
+            Console.WriteLine($"-- G: {color1.Gray}");
             Console.WriteLine($"- Times thrown: {ball3.ThrowAmount}");
         }
     }

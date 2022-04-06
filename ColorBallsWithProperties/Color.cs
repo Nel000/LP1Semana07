@@ -15,7 +15,7 @@ namespace ColorBallsWithProperties
         public byte Green { get; set; }
         public byte Blue { get; set; }
         public byte Alpha { get; set; }
-        public int Grey { get { return (Red + Green + Blue) / 2; } }
+        public int Gray { get { return (Red + Green + Blue) / 2; } }
 
         /// <summary>
         /// Constructor that accepts all parameters necessary to initialize
@@ -46,16 +46,6 @@ namespace ColorBallsWithProperties
             Green = green;
             Blue = blue;
             Alpha = byte.MaxValue;
-        }
-
-        /// <summary>
-        /// Getter for color gray.
-        /// </summary>
-        /// <returns> The gray value </returns>
-        public int GetGray()
-        {
-            // Returns average from sum of RGB values
-            return (Red + Green + Blue) / 3;
         }
     }
 }
