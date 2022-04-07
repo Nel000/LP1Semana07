@@ -15,17 +15,11 @@ namespace ColorBallsWithProperties
         /// <param name="args"> Arguments given through the console </param>
         static void Main(string[] args)
         {
-            // Create instances of Color class with different values
-            Color red = new Color(255, 0, 0);
-            Color green = new Color(0, 255, 0);
-            Color blue = new Color(0, 0, 255);
-            Color mixed = new Color(125, 150, 75);
-
             // Create multiple balls
-            Ball ball1 = new Ball(red, 10.5f);
-            Ball ball2 = new Ball(green, 5.7f);
-            Ball ball3 = new Ball(blue, 19.1f);
-            Ball ball4 = new Ball(mixed, 2.3f);
+            Ball ball1 = new Ball(new Color(255, 0, 0), 10.5f);
+            Ball ball2 = new Ball(new Color(0, 255, 0), 5.7f);
+            Ball ball3 = new Ball(new Color(0, 0, 255), 19.1f);
+            Ball ball4 = new Ball(new Color(125, 150, 75), 2.3f);
 
             //  Throw balls
             ball1.Throw();
